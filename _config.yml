@@ -1,6 +1,40 @@
-title: My Blog
-description: >- # this means to ignore newlines until "baseurl:"
-  Welcome to my blog.
-baseurl: "" # the subpath of your site, e.g. /blog, if applicable
-url: "https://yili2325.github.io" # the base hostname & protocol for your site
-markdown: kramdown
+# Build settings
+gems:
+  - jemoji
+  - jekyll-paginate
+
+# Site settings
+title: "My Blog"
+description: > # this means to ignore newlines until "email:"
+  "A blog about awesome things."
+
+email: liyi1997119@gmail.com
+#blog logo
+logo: "/assets/images/df_logo.jpg"
+float_logo: true # true, false (default)
+
+# blog cover
+#cover: "/assets/images/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg"
+
+name: 'Yi Li'
+author: 'Yi Li'
+#author_image: "/assets/images/author.jpg"
+
+paginate:	5
+
+url: "https://yili2325.github.io"
+baseurl: ""
+
+#fill in disqus shortname to use disqus
+disqus: yili_blog
+
+#google_analytics: UA-XXXXX-X
+
+# social icons and sharing options
+social:
+  - icon:	github
+    url:	https://github.com/yili2325
+    desc:	Fork me on github
+    share_url:
+    share_title:
+    share_link:
